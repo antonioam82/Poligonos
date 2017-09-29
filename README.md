@@ -17,6 +17,8 @@ t=Turtle()
 t.hideturtle()
 cf=input("Indica el color del fondo: ")
 ct=input("Indica el color de la linea: ")
+while cf==ct:
+    ct=input("Los colores del fondo y de la línea coinciden usa otro color: ")
 gt=input("Indica el grosor de la linea: ")
 t.screen.bgcolor(cf)
 t.color(ct)
