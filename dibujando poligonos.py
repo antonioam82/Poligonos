@@ -56,4 +56,4 @@ if preg==("s"):
             subprocess.call(["cmd.exe","/C","cls"])
         else:
             break
-        t.screen.mainloop()
+        #t.screen.mainloop()
